@@ -2106,5 +2106,14 @@ spindex = SpectralIndices(
             date_of_addition="2023-07-03",
             contributor="https://github.com/geoSanjeeb",
         ),
+        rNDSI=SpectralIndex(
+            short_name="rNDSI",
+            long_name="Robust Normalized Difference Snow Index",
+            formula="2*(G+R-N2-S1)/(G+R+N2+S1)",
+            reference="https://doi.org/10.3390/rs15051231",
+            application_domain="snow",
+            date_of_addition="2024-01-02",
+            contributor="https://github.com/14RS",
+        ),
     )
 )
